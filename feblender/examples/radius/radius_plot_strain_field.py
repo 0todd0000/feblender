@@ -21,11 +21,11 @@ print( 'Plotting strain field...')
 feblender.plot_field(nodes, elements, y, smin=y.min(), smax=y.max(), cmapname='jet')
 
 
-#(2) Render to file (optional):
-print( 'Rendering to file...')
-fnamePNG  = os.path.join(dir0, 'radius_strain_field.png')
-feblender.render(fnamePNG)
-feblender.quit()  #optionally quit Blender
+# #(2) Render to file (optional):
+# print( 'Rendering to file...')
+# fnamePNG  = os.path.join(dir0, 'radius_strain_field.png')
+# feblender.render(fnamePNG)
+# feblender.quit()  #optionally quit Blender
 
 
 

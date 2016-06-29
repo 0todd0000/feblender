@@ -21,9 +21,9 @@ feblender.plot_field(nodes, elements, y, smin=y.min(), smax=y.max(), cmapname='j
 
 
 
-#(2) Render to file (optional):
-fnamePNG       = os.path.join(dir0, 'simple_beam_strain_field.png')
-feblender.render(fnamePNG)
-feblender.quit()  #optionally quit Blender
+# #(2) Render to file (optional):
+# fnamePNG       = os.path.join(dir0, 'simple_beam_strain_field.png')
+# feblender.render(fnamePNG)
+# feblender.quit()  #optionally quit Blender
 
 

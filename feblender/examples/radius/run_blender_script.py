@@ -10,6 +10,3 @@ bsr.run(path2script)
 
 
 
-
-
-
