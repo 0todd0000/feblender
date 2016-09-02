@@ -4,7 +4,8 @@ import bpy
 
 def init_scene(delete_lamp=False):
 	scene    = bpy.data.scenes[0]
-	scene.objects.unlink( scene.objects['Cube' ] )
+	if 'Cube' in scene.objects.keys():
+		scene.objects.unlink( scene.objects['Cube'] )
 	if delete_lamp:
 		scene.objects.unlink( scene.objects['Lamp'] )
 	return scene
